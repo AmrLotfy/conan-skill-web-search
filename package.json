@@ -1,11 +1,19 @@
 {
   "name": "conan-skill-web-search",
   "version": "1.0.0",
-  "description": "Web search skill for Conan AI — powered by Tavily API",
+  "description": "Web search skill for Conan AI — real-time search results and sources via Tavily API",
   "main": "index.js",
-  "keywords": ["conan-skill", "web-search", "tavily", "ai-agent"],
-  "author": "Hollat",
+  "keywords": ["conan-skill", "web-search", "tavily", "ai-agent", "conan-ai"],
+  "author": "Amr Lotfy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmrLotfy/conan-skill-web-search.git"
+  },
+  "homepage": "https://github.com/AmrLotfy/conan-skill-web-search#readme",
+  "bugs": { "url": "https://github.com/AmrLotfy/conan-skill-web-search/issues" },
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
   "dependencies": {
     "axios": "^1.6.0"
   }
